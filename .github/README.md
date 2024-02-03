@@ -4,11 +4,12 @@ An awesome way to manage and store all my dotfiles using a git bare repository, 
 ## Features
 - The `config` alias replaces `git` to easily stage and commit any changes from anywhere in the home directory:
 
-    config status
-    config add .gitconfig
-    config commit -m "add: git"
-    config push
-
+```
+config status
+config add .gitconfig
+config commit -m "add: git"
+config push
+```
 
 - Configs borrowed from other repos like [NvChad](https://github.com/NvChad/NvChad) are forked and added as submodules, with upstream changes regularly merged using GitHub Workflows
 
