@@ -1,7 +1,7 @@
 # Clone and backup
 git clone --bare --recurse-submodules https://github.com/ActualNugget/dotfiles.git $HOME/.dots
 function config {
-   /usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME $@
+   /usr/bin/git --git-dir=$HOME/.dots/ --work-tree=$HOME $@
 }
 mkdir -p .config-backup
 config checkout
