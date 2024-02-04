@@ -4,10 +4,6 @@ if status is-interactive
 starship init fish | source
 
 # mv, rm, cp
-alias mv 'command gmv --interactive --verbose'
-alias rm 'command grm --interactive --verbose'
-alias cp 'command gcp --interactive --verbose'
-
 alias chmox='chmod +x'
 
 # `g co`, etc. subcommand expansion with `abbr`.
