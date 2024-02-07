@@ -22,4 +22,10 @@ After having spun up fresh CTF boxes and Raspberry Pis one too many times, I nee
 
 If this is being installed on a system where I've set up GitHub SSH, this script is used instead:
 
-    curl -Lks https://raw.githubusercontent.com/ActualNugget/dotfiles/main/.dots/install-ssh.sh | /bin/bash```
+    curl -Lks https://raw.githubusercontent.com/ActualNugget/dotfiles/main/.dots/install-ssh.sh | /bin/bash
+
+## Further Steps
+### Neovim
+1. Install `python3-venv`, `npm`
+2. In nvim, run `:MasonInstallAll`
+
