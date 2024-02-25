@@ -15,7 +15,12 @@ config push
 
 
 ## Setup
-After having spun up fresh CTF boxes and Raspberry Pis one too many times, I needed a shortcut to set them up the way I like. The venerable `curl` helps quickly make any of these clean installs feel just like home, with a single command:
+
+After having spun up fresh CTF boxes and Raspberry Pis one too many times, I needed a shortcut to set them up the way I like. 
+
+First, install [GNU Stow](https://www.gnu.org/software/stow/) with your distro's package manager. 
+
+Next, the venerable `curl` helps quickly make any of these clean installs feel just like home, with a single command:
 
     curl -Lks https://raw.githubusercontent.com/ActualNugget/dotfiles/main/.dots/install.sh | /bin/bash
 
@@ -26,6 +31,6 @@ If this is being installed on a system where I've set up GitHub SSH, this script
 
 ## Further Steps
 ### Neovim
-1. Install `python3-venv`, `npm`
+1. Install `python3-venv`, `npm` with your distro's package manager
 2. In nvim, run `:MasonInstallAll`
 
