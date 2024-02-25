@@ -18,7 +18,7 @@ config push
 
 After having spun up fresh CTF boxes and Raspberry Pis one too many times, I needed a shortcut to set them up the way I like. 
 
-First, install [GNU Stow](https://www.gnu.org/software/stow/) with your distro's package manager. 
+First, install `git` and [GNU Stow](https://www.gnu.org/software/stow/) with your distro's package manager. 
 
 Next, the venerable `curl` helps quickly make any of these clean installs feel just like home, with a single command:
 
