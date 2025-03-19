@@ -1,7 +1,7 @@
 return {
   {
     "stevearc/conform.nvim",
-    -- event = 'BufWritePre', -- uncomment for format on save
+--- event = 'BufWritePre', -- uncomment for format on save
     opts = require "configs.conform",
   },
 
@@ -11,6 +11,20 @@ return {
     config = function()
       require "configs.lspconfig"
     end,
+  },
+
+  {
+    "williamboman/mason.nvim",
+    opts = {
+      ensure_installed = {
+        "biome"
+      },
+    },
+  },
+
+  {
+    "williamboman/mason-lspconfig.nvim",
+    cmd = {"LspInstall", "LspUninstall"}
   },
 
   -- {
