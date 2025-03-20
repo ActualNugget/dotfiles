@@ -1,7 +1,7 @@
 return {
   {
     "stevearc/conform.nvim",
-    event = 'BufWritePre', -- uncomment for format on save
+    event = "BufWritePre", -- uncomment for format on save
     opts = require "configs.conform",
   },
 
@@ -10,6 +10,15 @@ return {
     "neovim/nvim-lspconfig",
     config = function()
       require "configs.lspconfig"
+    end,
+  },
+
+  {
+    "mfussenegger/nvim-lint",
+    -- event = "BufWritePost",
+    event = "VeryLazy",
+    config = function()
+      require "configs.lint"
     end,
   },
 
@@ -25,7 +34,7 @@ return {
 
   {
     "williamboman/mason-lspconfig.nvim",
-    cmd = {"LspInstall", "LspUninstall"}
+    cmd = { "LspInstall", "LspUninstall" },
   },
 
   -- {
