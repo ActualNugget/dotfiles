@@ -32,11 +32,11 @@ return {
     },
   },
 
-  {
-    "williamboman/mason-lspconfig.nvim",
-    cmd = { "LspInstall", "LspUninstall" },
-  },
-
+  -- {
+  --   "williamboman/mason-lspconfig.nvim",
+  --   cmd = { "LspInstall", "LspUninstall" },
+  -- },
+  --
   -- {
   -- 	"nvim-treesitter/nvim-treesitter",
   -- 	opts = {
