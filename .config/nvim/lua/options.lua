@@ -2,8 +2,9 @@ require "nvchad.options"
 
 -- add yours here!
 
--- local o = vim.o
+local o = vim.o
 -- o.cursorlineopt ='both' -- to enable cursorline!
+o.shell ="/usr/bin/fish"
 
 -- show Nvdash when all buffers are closed
 vim.api.nvim_create_autocmd("BufDelete", {
