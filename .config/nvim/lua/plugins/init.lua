@@ -1,7 +1,7 @@
 return {
   {
     "stevearc/conform.nvim",
-    event = "BufWritePre", -- uncomment for format on save
+    -- event = 'BufWritePre', -- uncomment for format on save
     opts = require "configs.conform",
   },
 
@@ -13,30 +13,9 @@ return {
     end,
   },
 
-  {
-    "mfussenegger/nvim-lint",
-    -- event = "BufWritePost",
-    event = "VeryLazy",
-    config = function()
-      require "configs.lint"
-    end,
-  },
+  -- test new blink
+  -- { import = "nvchad.blink.lazyspec" },
 
-  {
-    "williamboman/mason.nvim",
-    opts = {
-      ensure_installed = {
-        "typescript-language-server",
-        "biome",
-      },
-    },
-  },
-
-  -- {
-  --   "williamboman/mason-lspconfig.nvim",
-  --   cmd = { "LspInstall", "LspUninstall" },
-  -- },
-  --
   -- {
   -- 	"nvim-treesitter/nvim-treesitter",
   -- 	opts = {
