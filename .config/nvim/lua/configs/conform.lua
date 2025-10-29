@@ -1,7 +1,7 @@
 local options = {
   formatters_by_ft = {
     lua = { "stylua" },
-    python = { "ruff_organize_imports", "ruff_format" },
+    python = { "ruff_organize_imports", "ruff_fix", "ruff_format" },
     fish = { "fish_indent" },
     -- css = { "prettier" },
     -- html = { "prettier" },
