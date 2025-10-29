@@ -3,8 +3,13 @@ local options = {
     lua = { "stylua" },
     python = { "ruff_organize_imports", "ruff_fix", "ruff_format" },
     fish = { "fish_indent" },
-    -- css = { "prettier" },
-    -- html = { "prettier" },
+    typescript = { "biome-check" },
+    typescriptreact = { "biome-check" },
+    javascript = { "biome-check" },
+    javascriptreact = { "biome-check" },
+    css = { "biome-check" },
+    html = { "biome-check" },
+    json = { "biome-check" },
   },
 
   -- format_on_save = {
