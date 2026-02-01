@@ -10,6 +10,7 @@ local options = {
     css = { "biome-check" },
     html = { "biome-check" },
     json = { "biome-check" },
+    gdscript = { "gdformat" },
   },
 
   -- format_on_save = {
