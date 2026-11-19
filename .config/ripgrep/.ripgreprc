@@ -1,0 +1,21 @@
+# Limit column width for terminal readability
+--max-columns=150
+--max-columns-preview
+
+# Add context lines
+--context=2
+
+# Search hidden files and directories
+--hidden
+
+# But exclude .git
+--glob=!.git/*
+
+# Case-insensitive unless pattern has uppercase
+--smart-case
+
+# Follow symbolic links
+--follow
+
+# Sort results by file path
+--sort=path
