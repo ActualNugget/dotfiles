@@ -59,4 +59,4 @@ end
 
 
 # ripgrep
-set -gx RIPGREP_CONFIG_PATH "$HOME/.config/.ripgreprc"
+set -gx RIPGREP_CONFIG_PATH "$HOME/.config/ripgrep/.ripgreprc"
