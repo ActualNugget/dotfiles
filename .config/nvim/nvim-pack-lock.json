@@ -1,0 +1,32 @@
+{
+  "plugins": {
+    "conform.nvim": {
+      "rev": "016802de402556da54c36bd7359b441266b01cdd",
+      "src": "https://github.com/stevearc/conform.nvim"
+    },
+    "friendly-snippets": {
+      "rev": "b2ea5c41a150ba72fb656eedb4ed0a86d138d945",
+      "src": "https://github.com/rafamadriz/friendly-snippets"
+    },
+    "mason.nvim": {
+      "rev": "2a6940af80375532e5e9e7c1f2fc6319a1b7a69d",
+      "src": "https://github.com/mason-org/mason.nvim"
+    },
+    "mini.nvim": {
+      "rev": "f9550dd81d0514927b7ad1794fd8eb8606ca28cd",
+      "src": "https://github.com/nvim-mini/mini.nvim"
+    },
+    "nvim-lspconfig": {
+      "rev": "993d048db0d83d8e8ba3f9cb376456321acdcce3",
+      "src": "https://github.com/neovim/nvim-lspconfig"
+    },
+    "nvim-treesitter": {
+      "rev": "19bdfc04f40ed2ccb3340591d125f759b0406875",
+      "src": "https://github.com/nvim-treesitter/nvim-treesitter"
+    },
+    "nvim-treesitter-textobjects": {
+      "rev": "5c7b0263797dfd1bd6202f2b219f3b53a80b2187",
+      "src": "https://github.com/nvim-treesitter/nvim-treesitter-textobjects"
+    }
+  }
+}

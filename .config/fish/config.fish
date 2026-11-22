@@ -4,7 +4,7 @@ if status is-interactive
 	starship init fish | source
 	zoxide init fish | source
 
-	# git
+	# git ======================================================
 	# `g co`, etc. subcommand expansion with `abbr`.
 	function subcommand_abbr
 	  set -l cmd "$argv[1]"
@@ -54,9 +54,8 @@ if status is-interactive
 	alias gitmainormaster="git branch --format '%(refname:short)' --sort=-committerdate --list master main | head -n1"
 	alias main="git checkout (gitmainormaster)"
 	alias master="main"
+	
+	# ripgrep ==================================================================
+	set -gx RIPGREP_CONFIG_PATH "$HOME/.config/ripgrep/.ripgreprc"
 
 end
-
-
-# ripgrep
-set -gx RIPGREP_CONFIG_PATH "$HOME/.config/ripgrep/.ripgreprc"
